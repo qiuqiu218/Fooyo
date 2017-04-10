@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+*::after,*::before{
+  box-sizing:border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+img{
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+em,strong{
+  font-weight: normal;
+  font-style: normal;
+}
+h1,h2,h3,h4,h5,h6,p{
+  font-weight: 300;
+}

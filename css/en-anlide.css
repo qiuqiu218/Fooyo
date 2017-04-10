@@ -1,0 +1,200 @@
+body{
+	overflow-y:auto;
+}
+.anli-de{
+	overflow: hidden;
+	font-size: 12px;
+}
+.anli-de .banner{
+	overflow: hidden;
+	font-size: 26px;
+	color: #fff;
+	margin-top: 90px;
+	height: 1365px;
+	background: url('../images/anli_detail_banner.jpg') center center/cover;
+	text-align: center;
+}
+.anli-de .banner h2{
+	margin: 124px 0 32px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.anli-de .banner h2 img{
+	width:auto;
+}
+.anli-de .banner h2 + p{
+	line-height: 50px;
+	width: 738px;
+	margin: 0 auto;
+}
+.anli-de .banner h2 + p em{
+	color: #95f4e9;
+}
+.anli-de .banner ul{
+	width: 1025px;
+	margin: 0 auto;
+	margin-top: 107px;
+	font-size: 0;
+}
+.anli-de .banner ul li{
+	width: 220px;
+	display: inline-block;
+	vertical-align: top;
+	min-height: 265px;
+	margin-right: 180px;
+	border:1px solid #5b86a0;
+	border-top-width: 0;
+	padding-top: 70px;
+	position: relative;
+}
+@media screen and (max-width: 1200px){
+	.anli-de .banner ul li{
+		margin-right: 90px;
+	}
+	.anli-de .banner ul{
+		width: 845px;
+	}
+}
+@media screen and (max-width: 845px){
+	.anli-de .banner ul li{
+		margin-right: 40px;
+		width: 180px;
+	}
+	.anli-de .banner ul{
+		width: 765px;
+	}
+}
+.anli-de .banner ul li:last-child{
+	margin-right: 0;
+}
+.anli-de .banner ul li:nth-of-type(1) figcaption{
+	background: url('../images/anli_de_icon_1_03.png') no-repeat center center/contain;
+}
+.anli-de .banner ul li:nth-of-type(2) figcaption{
+	background: url('../images/anli_de_icon_2_05.png') no-repeat center center/contain;
+}
+.anli-de .banner ul li:nth-of-type(3) figcaption{
+	background: url('../images/anli_de_icon_3_07.png') no-repeat center center/contain;
+}
+.anli-de .banner ul li figure figcaption{
+	width: 108px;
+	height: 56px;
+	transform: translate(-50%,calc(-70px - 50%));
+	position: absolute;
+	left: 50%;
+}
+.anli-de .banner ul li figure figcaption::before{
+	content: ' ';
+	position: absolute;
+	width: 50px;
+	height: 1px;
+	background-color: #5b86a0;
+	left: -51%;
+	top: 50%;
+}
+.anli-de .banner ul li figure figcaption::after{
+	content: ' ';
+	position: absolute;
+	width: 50px;
+	height: 1px;
+	background-color: #5b86a0;
+	right: -51%;
+	top: 50%;
+}
+@media screen and (max-width: 845px){
+	.anli-de .banner ul li figure figcaption::after{
+		width: 40px;
+		right: -32%;
+	}
+	.anli-de .banner ul li figure figcaption::before{
+		width: 40px;
+		left: -32%;
+	}
+}
+.anli-de .banner ul li h3{
+	margin-bottom: 15px;
+	font-size: 22px;
+}
+.anli-de .banner ul li p{
+	line-height: 30px;
+	padding:10px;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.anli-de .anli-pic{
+	text-align: center;
+	margin-top: -25%;
+	font-size: 0;
+}
+.anli-de .anli-pic img{
+	width: auto;
+}
+@media screen and (max-width: 1366px){
+.anli-de .anli-pic img{
+	width: 62.5%;
+}
+}
+
+.anli-de .more-anli{
+	background-color: #fafeff;
+	text-align: center;
+	color: #366695;
+	overflow: hidden;
+}
+.anli-de .more-anli h2{
+	line-height: 144px;
+	font-size: 30px;
+	color: #366695;
+}
+.anli-de .more-anli ul{
+	transition: height 0.5s;
+	width: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+	border-bottom:1px solid #c0d0dd;
+	font-size: 0;
+	text-align: center;
+}
+.anli-de .more-anli ul.click{
+	height: auto !important;
+}
+.anli-de .more-anli ul.click + .down{
+	transform: rotate(180deg);
+}
+.anli-de .more-anli ul li{
+	width: 15%;
+	margin-right: 1.6%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+@media screen and (max-width: 1200px){
+	.anli-de .more-anli ul{
+		width: 100%;
+	}
+}
+.anli-de .more-anli ul li:last-child{
+	margin-right: 0;
+}
+.anli-de .more-anli ul li img{
+	width: 100%;
+}
+.anli-de .more-anli ul li h3{
+	margin: 25px 0 8px 0;
+	font-size: 16px;
+}
+.anli-de .more-anli ul li p{
+	margin-bottom: 35px;
+	font-size: 14px;
+}
+.anli-de .more-anli .down{
+	transition: all 0.5s;
+	display: block;
+	width: 51px;
+	height: 51px;
+	margin: 28px auto 46px auto;
+	background: url('../images/anli_de_down_19.png');
+	background-size: cover;
+}

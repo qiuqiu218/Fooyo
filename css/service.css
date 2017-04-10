@@ -1,0 +1,181 @@
+body{
+	overflow-y:auto;
+}
+.service{
+	overflow: hidden;
+}
+.service .banner {
+	height: 636px;
+	background: url('../images/pexels-photo-147399.png') no-repeat center center/cover;
+	overflow: hidden;
+	padding-top: 118px;
+	margin-top: 90px;
+	text-align: center;
+}
+.service .banner h2{
+	font-size: 48px;
+	color: #366695;
+	margin-bottom: 22px;
+}
+.service .content>p{
+	font-size:18px;
+}
+.service .banner em{
+	color: #47dccb;
+}
+.service .banner > div{
+	width: 56vw;
+	padding: 0.78vw 3.9vw;
+	font-size: 18px;
+	color: #fff;
+	margin: 0 auto;
+	background-color: #366695;
+}
+.service .banner > div p{
+	line-height: 1.5;
+}
+.service .tec{
+	height:151px;
+	width: 1200px;
+	margin: 40px auto;
+	text-align: center;
+	font-size: 0;
+	overflow: hidden;
+	display: flex;
+}
+.service .tec li{
+	width:1%;
+	flex:1;
+	float: left;
+	height: 255px;
+	color: #366695;
+}
+.service .tec li:hover{
+	transform: translateY(-100px);
+	transition: all 1s;
+}
+.service .tec li img{
+	width: 26%;
+	margin-top: 22px;
+}
+.service .tec li h3{
+	margin-top: 21px;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+.service .tec li h3 + p{
+	padding:0 20px;
+	line-height: 1.5;
+	font-size: 14px;
+}
+.service .content{
+	background: url('../images/service.jpg') no-repeat center center/cover;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+}
+.service .content h2{
+	margin-top: 60px;
+	margin-bottom: 32px;
+	font-size: 48px;
+	font-weight: 600;
+}
+.service .content h2 + p{
+	font-size: 18px;
+ 	margin-bottom:68px;
+	line-height: 1.5;
+}
+.service .content .swiper-container{
+	margin: 0 auto;
+	transition: all 0.5s;
+	padding-top: 110px;
+}
+@media screen and (max-width: 1200px){
+	.service .content .swiper-container{
+		width: 90%;
+	}
+}
+
+.service .content .swiper-slide li img{
+	width: auto;
+}
+.service .content .swiper-slide li img + p{
+	margin:0 auto 40px;
+	width:158px;
+	font-size: 18px;
+}
+.service .swiper-button-prev{
+	left: 15%;
+	background: url('../images/next.png') no-repeat center center/100% 100%;
+	transform: rotate(180deg) translateY(-20%);
+	top: 35%;
+	margin-top: 0;
+}
+.service .swiper-button-next{
+	right: 15%;
+	background: url('../images/next.png') no-repeat center center/100% 100%;
+	transform: translateY(20%);
+	top: 35%;
+	margin-top: 0;
+}
+.service .content .swiper-container > ul{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.service .content .swiper-container > ul li{
+	padding:0 12px;
+	line-height: 48px;
+	margin-right: 5.5vw;
+	font-size: 16px;
+	cursor: pointer;
+}
+.service .content .swiper-container > ul li.active{
+	background-color: #3a759c;
+	font-size:16px;
+}
+.service .content .swiper-container > ul li:last-child{
+	margin-right: 0;
+}
+.service .content small{
+	width: 60vw;
+	padding: 12px 2%;
+	font-size: 18px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 23px;
+	margin-bottom: 44px;
+	margin-top: 25px;
+	line-height: 1.5 !important;
+}
+.service .content small p{
+	line-height: 30px;
+}
+.service .swiper-slide .clearfix{
+	padding:0 15%;
+	background:#3a759c;
+	width:100%;
+	display: table;
+}
+.service .clearfix>li{
+	display:table-cell;
+}
+@media screen and (max-width: 1380px){
+.service .banner h2{
+	font-size:42px;
+}
+.service .banner > div,.service .content .swiper-slide li img + p,.service .content small p{
+	font-size:14px;
+}
+.service .tec li h3,.service .content h2 + p{
+	font-size:18px;
+}
+.service .content h2{
+	font-size:42px;
+}
+}

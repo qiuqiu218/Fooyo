@@ -1,0 +1,27 @@
+.wrapper{
+  width: 68%;
+  margin: 0 auto;
+}
+.clearfix::after{
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.img-response{
+	width: 100%;
+	height: auto;
+}
+.flex-column-center{
+	display: flex;
+  	flex-direction: column;
+  	text-align: center;
+  	justify-content: center;
+}
+.img-auto{
+  width: auto;
+  height: auto;
+}
+@font-face{
+  font-family: "微软雅黑";
+  src:url('../font/msyh.ttf');
+}

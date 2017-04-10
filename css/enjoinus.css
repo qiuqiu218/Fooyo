@@ -1,0 +1,136 @@
+body{
+	overflow-y:auto;
+}
+.join-us{
+	overflow: hidden;
+}
+.join-us .banner{
+	margin-top: 90px;
+
+}
+.join-us .banner img{
+	width:100%;
+}
+.join-us .banner h2{
+	font-size: 60px;
+	color: #fff;
+	margin-bottom: 50px;
+}
+.join-us .banner p{
+	color: #235e63;
+	font-size: 0;
+}
+.join-us .banner p span{
+	font-size: 42px;
+	position: relative;
+}
+.join-us .banner p span:first-of-type{
+	display: inline-block;
+	width: 256px;
+	line-height: 68px;
+	background-color: #95f4e9;
+	vertical-align: top;
+}
+.join-us .banner p span:first-of-type::before{
+	content: ' ';
+	position: absolute;
+	height: 1px;
+	width: 30vw;
+	background-color: #95f4e9;
+	left: -30vw;
+
+}
+.join-us .banner p span:last-of-type{
+	display: inline-block;
+	width: 436px;
+	line-height: 68px;
+	background-color: #95f4e9;
+	vertical-align: top;
+}
+.join-us .banner p span:last-of-type::after{
+	content: ' ';
+	position: absolute;
+	height: 1px;
+	width: 30vw;
+	background-color: #95f4e9;
+	right: -30vw;
+}
+.join-us .rec figure{
+	width: 1200px;
+	margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+	.join-us .rec figure{
+		width: 100%;
+	}
+}
+.join-us .rec figure figcaption{
+	margin: 60px 0 50px 0;
+	font-size: 24px;
+	color: #366695;
+	padding-left: 25%;
+}
+.join-us .rec figure figcaption::before{
+	content: ' ';
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #95f4e9;
+	margin-right: 45px;
+}
+.join-us .rec figure > div {
+	border-bottom: 1px dashed #becedd;
+	overflow: hidden;
+	padding-bottom:70px;
+}
+.join-us .rec figure .img-wrap{
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+}
+.join-us .rec figure .img-wrap img{
+	width: 140px;
+}
+.join-us .rec figure ul{
+	overflow: hidden;
+	font-size: 0;
+	width:74%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.join-us .rec figure ul li p{
+	font-size: 18px;
+	color: #366695;
+	margin-bottom: 17px;
+	line-height: 1.5em;
+	display: flex;
+	justify-content: space-between;
+}
+.join-us .rec figure ul li p:last-of-type{
+	margin-bottom: 0;
+}
+.join-us .rec .resume{
+	line-height: 120px;
+	font-size: 20px;
+	color: #366695;
+	padding-left: 20vw;
+
+}
+.join-us .rec .resume::before{
+	content: '';
+	display: inline-block;
+	width: 55px;
+	height: 45px;
+	background: url('../images/resume_point_13.png') no-repeat center center/contain;
+	vertical-align: middle;
+	margin-right: 16px;
+}
+.join-us .rec .resume a{
+	color: #47dccb;
+	margin-left: 12px;
+}
+.join-us .rec figure ul li p span{
+	width:50%;
+	text-align: left;
+}
